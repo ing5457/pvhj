@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список товаров</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <script src="js.js"></script>
+
+    <div class="container">
+        <div class="tabs">
+            <a class="tab tab1" onclick="activateTab(this, 'tab1')">
+                <p>Прежде чем вы приступите</p>
+            </a>
+            <a class="tab tab2" onclick="activateTab(this, 'tab2')">
+                Начало
+            </a>
+            <a class="tab tab3" onclick="activateTab(this, 'tab3')">
+                Зайдите на Kotlinlang.
+            </a>
+        </div>
+
+        <div class="content">
+
+            <div id="tab1" class="tab-content">
+                <h1>Список товаров</h1>
+                <ul class="product-list">
+                    <li class="product-item">
+                        <img src="img/photo_2024-02-11_22-35-57.jpg" onclick="zoomImage(this)" alt="Product Image">
+                        <div>
+                            <h2>Товар 1</h2>
+                            <p>
+                                Абстракция данных - это концепция в программировании, где данные представлены в упрощенной или
+                                абстрактной форме, скрывая детали и реализацию. Это позволяет разработчикам работать с данными
+                                на более высоком уровне абстракции, не заботясь о том, как данные хранятся или обрабатываются
+                                внутри системы.
+                            </p>
+                        </div>
+                        <button class="buy-btn" data-product-id="product3">Купить</button>
+                        
+                    </li>
+                    <li class="product-item">
+                        <img src="https://via.placeholder.com/150" alt="Товар 2">
+                        <div>
+                            <h2>Товар 2</h2>
+                            <p>
+                                Абстракция данных - это концепция в программировании, где данные представлены в упрощенной или
+                                абстрактной форме, скрывая детали и реализацию. Это позволяет разработчикам работать с данными
+                                на более высоком уровне абстракции, не заботясь о том, как данные хранятся или обрабатываются
+                                внутри системы.</p>
+                        </div>
+                        <button class="buy-btn" data-product-id="product3">Купить</button>
+                    </li>
+                    <li class="product-item">
+                        <img src="https://via.placeholder.com/150" alt="Товар 3">
+                        <div>
+                            <h2>Товар 3</h2>
+                            <p>
+                                Абстракция данных - это концепция в программировании, где данные представлены в упрощенной или
+                                абстрактной форме, скрывая детали и реализацию. Это позволяет разработчикам работать с данными
+                                на более высоком уровне абстракции, не заботясь о том, как данные хранятся или обрабатываются
+                                внутри системы.</p>
+                        </div>
+                        <button class="buy-btn" data-product-id="product3">Купить</button>
+                    </li>
+                    <!-- Добавьте больше товаров, если необходимо -->
+                </ul>
+            </div>
+
+            <div id="tab2" class="tab-content">
+                <h1>Список товаров</h1>
+                <ul class="product-list">
+                    <li class="product-item">
+                        <img src="img/photo_2024-02-11_22-35-57.jpg" alt="Товар 1">
+                        <div>
+                            <h2>Товар 1</h2>
+                            <p>
+                                Абстракция данных - это концепция в программировании, где данные представлены в упрощенной или
+                                абстрактной форме, скрывая детали и реализацию. Это позволяет разработчикам работать с данными
+                                на более высоком уровне абстракции, не заботясь о том, как данные хранятся или обрабатываются
+                                внутри системы.
+                            </p>
+                        </div>
+                        <button class="buy-btn" data-product-id="product3">Купить</button>
+                        
+                    </li>
+                    <li class="product-item">
+                        <img src="https://via.placeholder.com/150" alt="Товар 2">
+                        <div>
+                            <h2>Товар 2</h2>
+                            <p>
+                                Абстракция данных - это концепция в программировании, где данные представлены в упрощенной или
+                                абстрактной форме, скрывая детали и реализацию. Это позволяет разработчикам работать с данными
+                                на более высоком уровне абстракции, не заботясь о том, как данные хранятся или обрабатываются
+                                внутри системы.</p>
+                        </div>
+                        <button class="buy-btn" data-product-id="product3">Купить</button>
+                    </li>
+                    <li class="product-item">
+                        <img src="https://via.placeholder.com/150" alt="Товар 3">
+                        <div>
+                            <h2>Товар 3</h2>
+                            <p>
+                                Абстракция данных - это концепция в программировании, где данные представлены в упрощенной или
+                                абстрактной форме, скрывая детали и реализацию. Это позволяет разработчикам работать с данными
+                                на более высоком уровне абстракции, не заботясь о том, как данные хранятся или обрабатываются
+                                внутри системы.</p>
+                        </div>
+                        <button class="buy-btn" data-product-id="product3">Купить</button>
+                    </li>
+                    <!-- Добавьте больше товаров, если необходимо -->
+                </ul>
+            </div>
+
+            <div id="tab3" class="tab-content">
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
